@@ -1,0 +1,8 @@
+#divContenido {
+    padding-top: 20px;
+}
+
+.menu {
+    --bs-bg-opacity: 1;
+    background-color: #827cfc!important;
+}
