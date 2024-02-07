@@ -12,7 +12,7 @@ $(document).ready(function (){
 
     /**** FUNCIONES ****/
     cargaContenido(urlListaProyectos);
-    cargaContenido("https://pokeapi.co/api/v2/pokemon/ditto");
+    //cargaContenido("https://pokeapi.co/api/v2/pokemon/ditto");
     // let miObj = [{
     //     "id": 1,
     //     "name": "Prueba nombre 1",
@@ -49,6 +49,12 @@ $(document).ready(function (){
     $("#idMenu2").click(function (){
         cargaContenido("./app/front/menu2/menu2.html");
     });
+
+    $("#idMenuManUsuario").click(function (){
+        cargaContenido("./app/front/usuarios/manUsuario.html");
+    });
+
+    
 
     $("#liveToastBtn").click(function () {
         showToast("Este es un mensaje de prueba!");
